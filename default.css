@@ -712,3 +712,22 @@
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+.mr-10{
+	margin-right: 10px;
+}
+
+/* mrgin-left */
+
+.ml-40{
+	margin-left: 40px;
+}
+.ml-50{
+	margin-left: 50px;
+}
+.ml-60{
+	margin-left: 60px;
+}
+.ml-70{
+	margin-left: 70px;
+}
