@@ -648,13 +648,13 @@
 /* Background Color */
 
 .gray-bg {
-	background: #f7f7fd;
+	background: rgb(255, 251, 251);
 }
 .white-bg {
 	background: #fff;
 }
 .black-bg {
-	background: #222;
+	background: #121121;
 }
 .theme-bg {
 	background: #222;

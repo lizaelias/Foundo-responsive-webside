@@ -8,25 +8,148 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+    .header-info ul li{
+        
+        margin-right: 15px;
+    }
+    .main-manu ul li{
+        margin-left: 16px;
+    }
+    .back-text {
+        font-size: 200px;
+    }
 
+    .s-back-tittle {
+        
+        font-size: 80px;
+      
+    }
+
+    .setion-tittle span{
+        
+        font-size: 15px;
+       }
+    .setion-tittle h2{
+        font-size: 40px;
+    }
+
+    .up-event-btn {
+        margin-top: 30px;
+    }
+    .contact-input {
+       
+        padding-left: 20px;
+    }
+
+    .single-fact h1 {
+       
+        font-size: 50px;
+       
+    }
+   
 }
 
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+ 
+    .up-event-btn {
+        margin-top: 30px;
+    }
 
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .up-event-btn {
+        margin-top: 30px;
+    }
 
+    .contact-input input {
+        margin: 0;
+        padding: 10px;
+        width: 250px;
+    }
+
+    .contact-input input {
+        margin: 0;
+        padding: 4px;
+        width: 249px;
+    }
+
+    .s-back-tittle {
+        font-size: 100px;
+        
+       
+    }
+
+    .setion-tittle h2 {
+        font-size: 35px;
+    }
+
+    .s-back-tittle {
+        font-size: 66px;
+    }
+
+    .f-left {
+        float: none;
+    }
+
+    .single-fact {
+        
+        padding: 50px 0;
+    }
+    
+    .contact-input {
+        margin-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    .back-text {
+        font-size: 120px;
+    }
+
+    .up-date {
+        width: 141px;
+        height: 147px;
+        
+        padding-top: 21px;
+        margin-right: 23px;
+       
+    }
+
+    .up-event-content span {
+        font-size: 16px;
+        margin-bottom: 7px;
+        margin-top: 15px;
+    }
+
+    .up-event-btn {
+        margin-top: 13px;
+
+    }
+
+    
  
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+.up-event-btn {
+    margin-top: 30px;
+
+    .contact-input input {
+        margin: 0;
+        padding: 10px;
+        width: 250px;
+    }
+
+    .contact-input input {
+        margin: 0;
+        padding: 4px;
+        width: 249px;
+    }
+}
 }

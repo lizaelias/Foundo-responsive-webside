@@ -1,9 +1,14 @@
 
 
-.slider img{
+.hero-area{
+    background-image: url("/asset/hongkong1081704.jpg");
    width: 100%;
+   height: 1020px;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
+/* <!-- heder start here --> */
 .transparent-header{
     position: absolute;
     right: 0;  
@@ -77,9 +82,25 @@
     font-weight: 700;
     font-size: 13px;
     border-radius: 30px;
+    border: 2px solid transparent;
+
 }
 
+.border-btn{
+    background:none;
+    border-color: #e5e6ec;
+    color: #e5e6ec;
+    padding: 20px 50px;
+}
+.border-btn:hover{
 
+    background:#ec6e39;
+    border-color: #ec6e39;
+    color: #e5e5e5;
+}
+.border-none{
+    border:0;
+}
 /* sub menu */
 
 .main-manu ul li {
@@ -149,3 +170,379 @@
 
 
 
+/* <!-- heder end here --> */
+
+/* hero-area start here */
+.hero-wrapper a i{
+    font-size: 100px;
+    color: #ec6e39;
+    display: inline-block;
+    margin-bottom: 24px;
+  
+}
+
+.hero-wrapper h2{
+    font-size: 70px;
+    color: #fff;
+  
+}
+
+.hero-wrapper {
+    position: relative;
+}
+
+.back-text{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 300px;
+    opacity: .3;
+    
+}
+
+/* hero-area start end */
+
+/* testimonial start here */
+   .setion-tittle span{
+    color: #f87206;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    font-size: 15px;
+   }
+.setion-tittle h2{
+    font-size: 50px;
+}
+
+.setion-tittle{
+    position: relative;
+}
+
+.s-back-tittle{
+    
+    position: absolute;
+    font-size: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    color: #121121;
+}
+
+.testimonial-content{
+    border: 2px solid #e5e5e5;
+    padding: 40px;
+    position: relative;
+}
+
+.testimonial-content p{
+    margin: 0;
+}
+
+.review-icon{
+    margin-bottom: 15px;
+}
+.review-icon i{
+    margin-right: 5px;
+    font-size: 13px;
+    color: #ec6e39;
+}
+
+
+.test-auther{
+    display: flex;
+   align-items: center;
+   
+}
+.test-auther img{
+    
+    width: 70px;
+}
+
+.test-auther-info{
+    margin-left: 10px;
+}
+.test-auther-info h4{
+    margin:0;
+    font-size: 18px;
+}
+
+.test-auther-info span{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ec6e39;
+    letter-spacing: 2px;
+}
+
+.testimonial-content::before {
+  
+       
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 13px 12px 0 12px;
+        border-color: #e5e5e5 transparent transparent transparent;
+        content: "";
+        position: absolute;
+        bottom: -13px;
+        left: 65px;
+}
+.f-faq.card-header{
+    padding: 0;
+    margin-bottom: 0;
+    background-color: none;
+    border-bottom: 1px solid #ddd;
+}
+.f-faq{}
+.f-faq{}
+
+.card{
+    margin-bottom: 20px;
+}
+
+/* testimonial start end */
+
+.event-main{
+    box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.06);
+}
+.event-img{
+    position: relative;
+}
+.event-img img{
+    width: 100%;
+ 
+}
+
+.event-btn{
+    position: absolute;
+    top:30px ;
+    left: 30px;
+}
+.event-content{
+    padding: 30px;
+}
+
+.event-content span{
+    color: #ec6e39;
+    font-size: 14px;
+    font: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.event-content h2{
+    font-size: 32px;
+    margin-top: 12;
+    margin-bottom: 20px;
+}
+.bg-overlay{
+    position: relative;
+}
+
+.bg-overlay::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: .6; 
+}
+
+.event-img{
+    position: relative;
+}
+
+.event-date{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: #ec6e39;
+    color: white;
+    border-radius: 100%;
+    padding-top: 19px;
+    
+}
+.event-date b{
+    display: block;
+}
+.event-date span{
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.event-box-content{
+    padding: 34px 30px;
+}
+
+.event-box-content h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.up-event-box{
+    background-color:white;
+
+}
+
+
+.up-event-box {
+    padding: 50px;
+}
+.up-date{
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    background-color: #ec6e39;
+    padding-top: 32px;
+    margin-right: 40px;
+}
+
+.up-date h2{
+    color: #fff;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.up-date span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.up-event-content span{
+    font-size:16px;
+    color: #8d8db4;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.up-event-content h3{
+    font-size: 36px;
+}
+.up-event-content{
+    padding-top: 5px;
+}
+.up-event-content p{
+    margin: 0;
+}
+
+/* fact-area */
+
+.single-fact img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.single-fact{
+    border-right: 2px solid #232239;
+    padding: 100px 0;
+}
+.single-fact h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+}
+.single-fact h1 span{
+    color: #ec6e39;
+    font-size: 30px;
+}
+
+.single-fact >span{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #cbd6e3;
+}
+.fact-row .col-lg-3:not(:last-child) .single-fact {
+    border-right: 2px solid #232239;
+}
+
+/* contract area  */
+
+
+.contact-input label{
+    display: block;
+}
+.contact-input {
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+.contact-input label {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+.contact-input input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    width: 400px;
+    
+}
+
+.contract-area{
+    background-color: #bfbfcf;
+}
+
+
+
+/* footer */
+
+.footer-widget-tittle{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-widget p{
+   color: #cbd6e3;
+}
+
+.footer-widget ul li a{
+    color: #cbd6e3;
+    font-size: 16px;
+}
+
+.footer-widget ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.footer-post-list span{
+    font-size: 12px;
+    color: #ec6e39;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.footer-post-list h3{
+    color: #cbd6e3;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.fotter-post .footer-post-list :not(:last-child){
+    margin-bottom: 30px;
+}
+
+.copy{
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    color:#cbd6e3;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
